@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>ConclaveX | Home</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <script src="./index.js"></script>
+  </head>
+
+  <body class="is-preload">
+    <canvas id="canvas"></canvas>
+
+    <div class="left-logo">
+      <img src="./assets/css/images/nitt.png" alt="NITT-LOGO" />
+    </div>
+    <div class="center-logo">
+      <img src="./assets/css/images/conclave logo white.png" alt="NITT-LOGO" />
+    </div>
+    <div class="right-logo">
+      <img src="./assets/css/images/Main Logo 22_White.png" alt="NITT-LOGO" />
+    </div>
+
+    <header id="header">
+      <div id="center">
+        <h1>NIT CONCLAVE</h1>
+        <p>A platform aimed at uniting all the NITs</p>
+
+        <div class="word"></div>
+
+        <!-- <a
+          href="https://www.gmetri.com/"
+          class="action-btn"
+          style="margin: 1rem; text-decoration: none; border: none"
+        >
+          <div class="meta">
+            <p
+              style="
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin: 0;
+                color: rgb(243, 219, 140);
+              "
+            >
+              Enter the Metaverse
+            </p>
+            <i
+              class="fa fa-arrow-right arrow"
+              style="margin-top: 0.25rem; color: rgb(243, 219, 140)"
+            ></i>
+          </div>
+        </a> -->
+        <nav>
+          <ul>
+            <li>
+              <a href="Events/index.html" class="fa fa-calendar"
+                ><span class="label">Events</span></a
+              >
+            </li>
+            <li>
+              <a href="Leaderboard/index.html" class="fa fa-trophy"
+                ><span class="label">Leaderboard</span></a
+              >
+            </li>
+            <li>
+              <a href="Timeline/index.html" class="fa fa-hourglass"
+                ><span class="label">Timeline</span></a
+              >
+            </li>
+            <!-- <li>
+              <a href="Sponsors/index.html" class="fa fa-handshake"
+                ><span class="label">Sponsors</span></a
+              >
+            </li> -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id="wrapper">
+      <div id="bg"></div>
+      <div id="overlay"></div>
+      <div id="main"></div>
+    </div>
+
+    <footer class="footer">
+      <p>
+        Made with
+        <a
+          href="https://nitt.wiki/index.php/Technical_Council"
+          style="border: none"
+          >💓</a
+        >
+        by Technical Council NITT
+      </p>
+
+      <p style="margin: 0 0.5em">|</p>
+      <a
+        href="https://www.instagram.com/nitconclave/"
+        style="border: none; display: flex; align-items: center"
+      >
+        <img
+          alt="svgImg"
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTU3LjMzMzMzLDIxLjVjLTE5Ljc1ODUsMCAtMzUuODMzMzMsMTYuMDc0ODMgLTM1LjgzMzMzLDM1LjgzMzMzdjU3LjMzMzMzYzAsMTkuNzU4NSAxNi4wNzQ4MywzNS44MzMzMyAzNS44MzMzMywzNS44MzMzM2g1Ny4zMzMzM2MxOS43NTg1LDAgMzUuODMzMzMsLTE2LjA3NDgzIDM1LjgzMzMzLC0zNS44MzMzM3YtNTcuMzMzMzNjMCwtMTkuNzU4NSAtMTYuMDc0ODMsLTM1LjgzMzMzIC0zNS44MzMzMywtMzUuODMzMzN6TTU3LjMzMzMzLDM1LjgzMzMzaDU3LjMzMzMzYzExLjg1MzY3LDAgMjEuNSw5LjY0NjMzIDIxLjUsMjEuNXY1Ny4zMzMzM2MwLDExLjg1MzY3IC05LjY0NjMzLDIxLjUgLTIxLjUsMjEuNWgtNTcuMzMzMzNjLTExLjg1MzY3LDAgLTIxLjUsLTkuNjQ2MzMgLTIxLjUsLTIxLjV2LTU3LjMzMzMzYzAsLTExLjg1MzY3IDkuNjQ2MzMsLTIxLjUgMjEuNSwtMjEuNXpNMTIxLjgzMzMzLDQzYy0zLjk1ODA0LDAgLTcuMTY2NjcsMy4yMDg2MyAtNy4xNjY2Nyw3LjE2NjY3YzAsMy45NTgwNCAzLjIwODYzLDcuMTY2NjcgNy4xNjY2Nyw3LjE2NjY3YzMuOTU4MDQsMCA3LjE2NjY3LC0zLjIwODYzIDcuMTY2NjcsLTcuMTY2NjdjMCwtMy45NTgwNCAtMy4yMDg2MywtNy4xNjY2NyAtNy4xNjY2NywtNy4xNjY2N3pNODYsNTAuMTY2NjdjLTE5Ljc1ODUsMCAtMzUuODMzMzMsMTYuMDc0ODMgLTM1LjgzMzMzLDM1LjgzMzMzYzAsMTkuNzU4NSAxNi4wNzQ4MywzNS44MzMzMyAzNS44MzMzMywzNS44MzMzM2MxOS43NTg1LDAgMzUuODMzMzMsLTE2LjA3NDgzIDM1LjgzMzMzLC0zNS44MzMzM2MwLC0xOS43NTg1IC0xNi4wNzQ4MywtMzUuODMzMzMgLTM1LjgzMzMzLC0zNS44MzMzM3pNODYsNjQuNWMxMS44NTM2NywwIDIxLjUsOS42NDYzMyAyMS41LDIxLjVjMCwxMS44NTM2NyAtOS42NDYzMywyMS41IC0yMS41LDIxLjVjLTExLjg1MzY3LDAgLTIxLjUsLTkuNjQ2MzMgLTIxLjUsLTIxLjVjMCwtMTEuODUzNjcgOS42NDYzMywtMjEuNSAyMS41LC0yMS41eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+"
+        />
+      </a>
+    </footer>
+    <script>
+      window.onload = function () {
+        document.body.classList.remove("is-preload");
+      };
+      window.ontouchmove = function () {
+        return false;
+      };
+      window.onorientationchange = function () {
+        document.body.scrollTop = 0;
+      };
+    </script>
+  </body>
+</html>
