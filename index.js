@@ -1,8 +1,4 @@
-var words = [
-    "Welcome to ConclaveX",
-    "Metaverse Loading...",
-    "NITT the Pride of India",
-  ],
+var words = ["Welcome to ConclaveX", "NITT the Pride of India"],
   part,
   i = 0,
   offset = 0,
