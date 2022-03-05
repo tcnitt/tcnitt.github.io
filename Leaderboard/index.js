@@ -15,7 +15,7 @@ const leaderboard = [
   {
     name: "NITK",
     place: "Surathkal",
-    total: 0,
+    total: 25,
   },
   {
     name: "NITW",
@@ -125,7 +125,7 @@ const leaderboard = [
   {
     name: "NITD",
     place: "Delhi",
-    total: 0,
+    total: 10,
   },
   {
     name: "NITMZ",
@@ -145,7 +145,7 @@ const leaderboard = [
   {
     name: "NITANP",
     place: "Andhra Pradesh",
-    total: 0,
+    total: 15,
   },
 ];
 function add_img(img_src) {
