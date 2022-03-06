@@ -3,7 +3,7 @@ const leaderboard = [
   {
     name: "NITT",
     place: "Trichy",
-    total: 10+10+10+25+10,
+    total: 10+10+10+25+10+25+15+10,
 
     img: "logos/trichy.png",
   },
