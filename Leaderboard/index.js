@@ -3,7 +3,7 @@ const leaderboard = [
   {
     name: "NITT",
     place: "Trichy",
-    total: 10+10,
+    total: 10+10+10+25+10,
 
     img: "logos/trichy.png",
   },
@@ -20,7 +20,7 @@ const leaderboard = [
   {
     name: "NITW",
     place: "Warangal",
-    total: 15,
+    total: 15+15,
   },
   {
     name: "NITDGP",
@@ -110,7 +110,7 @@ const leaderboard = [
   {
     name: "NITPY",
     place: "Puducherry",
-    total: 0,
+    total: 15,
   },
   {
     name: "NITAP",
@@ -130,7 +130,7 @@ const leaderboard = [
   {
     name: "NITMZ",
     place: "Mizoram",
-    total: 0,
+    total: 25,
   },
   {
     name: "NITN",
