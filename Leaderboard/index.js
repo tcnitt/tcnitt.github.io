@@ -3,7 +3,7 @@ const leaderboard = [
   {
     name: "NITT",
     place: "Trichy",
-    total: 10,
+    total: 10+10,
 
     img: "logos/trichy.png",
   },
@@ -20,7 +20,7 @@ const leaderboard = [
   {
     name: "NITW",
     place: "Warangal",
-    total: 0,
+    total: 15,
   },
   {
     name: "NITDGP",
